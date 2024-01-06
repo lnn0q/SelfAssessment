@@ -1,9 +1,9 @@
 ## Node.js and backend
 
 - Internals and concepts
-  - Strong and weak sides of node.js
-  - Stateful and stateless servers
-  - Nonblocking I/O and slocking code
+  - Strong and weak sides of node.js: 🎓 known
+  - Stateful and stateless servers: 🎓 known
+  - Nonblocking I/O and slocking code: 🎓 known
   - Event loop: phases: 🎓 known
   - Event loop: microtasks and macrotasks: 🎓 known
   - Garbage collection: 🎓 known
@@ -23,17 +23,17 @@
   - Isolation with modularity: 👂 heard
   - Dependency injection: 🎓 known
   - DI containers: 👂 heard
-  - Coupling and cohesion
+  - Coupling and cohesion: 🎓 known
   - Framework agnostic approach: 🎓 known
 - Environment
   - Command line arguments: 🎓 known
   - Node.js CLI: 🖐️ used
   - Process-based permissions: 🎓 known
   - Graceful shutdown: 🖐️ used
-  - Clustering: 👂 heard
+  - Clustering: 🎓 known
   - Watch filesystem changes with --watch: 🖐️ used
 - Internal API
-  - Streams API: 👂 heard
+  - Streams API: 🎓 known
   - Web Streams API: 🎓 known
   - Crypto API: 🖐️ used
   - Password hashing with node:crypto.scrypt:🖐️ used
@@ -44,8 +44,8 @@
   - Performance hooks: 🎓 known
   - Native fetch and nodejs/undici: 🖐️ used
   - node:async_hooks: 🖐️ used
-  - AsyncLocalStorage: 👂 heard
-  - AsyncResource: 👂 heard
+  - AsyncLocalStorage: 🎓 known
+  - AsyncResource: 🎓 known
   - Deprecated domain API: 👂 heard
   - Node.js single executable: 🎓 known
   - Stream back pressure: 👂 heard
@@ -64,23 +64,23 @@
   - Isolation between layer: 🎓 known
   - Multilayer approach: 🎓 known
   - Separation of concerns: 🎓 known
-  - Inversion of control: 👂 heard
-  - Dependency injection: 👂 heard
+  - Inversion of control: 🎓 known
+  - Dependency injection: 🎓 known
   - GRASP: 👂 heard
   - SOLID: 👂 heard
   - GoF patterns: 👂 heard
   - Distributed systems: 🎓 known
   - Highload applications: 🎓 known
   - Clean architecture: 🎓 known
-  - DDD
+  - DDD: 👂 heard
   - Message Queue: 👂 heard
-  - CQS
-  - CQRS
-  - Event sourcing
-  - Load balancing
+  - CQS: 🎓 known
+  - CQRS: 🎓 known
+  - Event sourcing: 👂 heard
+  - Load balancing: 👂 heard
   - Serverless clouds: 🎓 known
   - FaaS clouds: 👂 heard
-  - Fat controller
+  - Fat controller: 👂 heard
   - GoF for Node.js: 👂 heard
   - Leaking abstractions: 👂 heard
 - Network
@@ -141,28 +141,28 @@
   - error.code: 🖐️ used
   - error.message: 🖐️ used
   - error.stack: 🖐️ used
-  - How to avoid mixins: 🎓 known
-  - Error.captureStackTrace: 🎓 known
-  - Uncaught exceptions: 🎓 known
-  - Heap dump: 🎓 known
+  - How to avoid mixins:  🎓 known
+  - Error.captureStackTrace:  🎓 known
+  - Uncaught exceptions:  🎓 known
+  - Heap dump:  🎓 known
   - Debugging tools: 🎓 known
   - Flame graph: 👂 heard
   - Memory leaks: 🎓 known
-  - Resource leaks: 🎓 known
-  - Data race: 🎓 known
+  - Resource leaks:  🎓 known
+  - Data race:  🎓 known
 - Integrations and bindings
-  - Native addons: 👂 heard
-  - C and C++ addons
-  - Rust addons
+  - Native addons: 🎓 known
+  - C and C++ addons: 🖐️ used
+  - Rust addons: 🎓 known
   - Zig addons
-  - NAN (Native Abstractions for Node.js)
-  - Node-API (formerly N-API)
-  - NAPI C and C++
-  - NAPI Rust
+  - NAN (Native Abstractions for Node.js): 🎓 known
+  - Node-API (formerly N-API): 🎓 known
+  - NAPI C and C++: 👂 heard
+  - NAPI Rust: 👂 heard
   - NAPI Zig
   - Webassembly WAT: 🎓 known
-  - Webassembly C and C++
-  - Webassembly Rust
+  - Webassembly C and C++: 🎓 known
+  - Webassembly Rust: 🎓 known
   - Webassembly Zig
   - Webassembly AssemblyScript: 🎓 known
   - Shared memory: 🎓 known
